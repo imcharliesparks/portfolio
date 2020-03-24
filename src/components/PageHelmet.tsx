@@ -1,7 +1,7 @@
-import React, { ReactChild } from 'react'
+import React, { ReactElement } from 'react'
 import { Helmet } from 'react-helmet'
 
-const PageHelmet = (): ReactChild => {
+const PageHelmet = (): ReactElement => {
   return (
     <Helmet>
       <title>Sparks Full-Stack: Full-Stack Web Development Solutions</title>

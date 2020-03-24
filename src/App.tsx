@@ -1,7 +1,12 @@
-import React, { ReactChild } from 'react'
+import React, { ReactElement } from 'react'
+import PageHelmet from './components/PageHelmet'
 
-const App = (): ReactChild => {
-  return <div>asdf</div>
+const App = (): ReactElement => {
+  return (
+    <>
+      <PageHelmet />
+    </>
+  )
 }
 
 export default App
