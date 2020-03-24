@@ -65,17 +65,8 @@
     &.personal-portfolio-slider ,
     &.designer-portfolio {
         &.slider-style-3 {
-            @media #{$sm-layout} {
-                padding: 100px 0;
-            }
-            @media #{$md-layout} {
-                padding: 150px 0;
-            }
-            @media #{$lg-layout} {
-                padding: 150px 0;
-                min-width: auto;
-                height: auto;
-            }
+            height: 100%;
+            // CS TODO: Re add min-width auto if it looks weird on large
             .inner{
                 @media #{$sm-layout} {
                     padding-top: 56px;
@@ -86,8 +77,9 @@
                 h1{
                     &.title{
                         @media #{$sm-layout} {
-                            font-size: 32px;
-                            line-height: 49px;
+                            font-size: 24px;
+                            line-height: 30px;
+                            margin-bottom: 6px;
                         }
                         @media #{$md-layout} {
                             font-size: 53px;
@@ -136,14 +128,6 @@
         }
 
         &.slider-style-3 {
-            @media #{$md-layout} {
-                height: auto;
-                padding: 100px 0;
-            }
-            @media #{$sm-layout} {
-                height: auto;
-                padding: 100px 0;
-            }
             .inner {
                 padding: 0;
                 h1 {
@@ -151,6 +135,10 @@
                         width: 100%;
                     }
                 }
+            }
+            .designer-thumbnail-container {
+                display: flex;
+                justify-content: center;
             }
             .designer-thumbnail {
                 img {
@@ -431,6 +419,7 @@
     }
 }
 .slider-wrapper {
+    height: 90vh;
     &.color-white{
         .inner{
             p{

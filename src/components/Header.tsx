@@ -13,7 +13,7 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
   const closeMenuTrigger = (): void | undefined => headerWrapperRef.current?.classList.remove('menu-open')
 
   return (
-    <header className={`header-area formobile-menu ${headerPosition} ${color}`}>
+    <header style={{ height: '10vh' }} className={`header-area formobile-menu ${headerPosition} ${color}`}>
       <div ref={headerWrapperRef} className="header-wrapper" id="header-wrapper">
         <div className="header-left">
           <div className="logo">

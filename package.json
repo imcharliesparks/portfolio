@@ -17,9 +17,11 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.9.0",
     "react-scripts": "3.4.1",
+    "react-text-loop": "^2.3.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "firestart": "BROWSER='firefox developer edition' react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
