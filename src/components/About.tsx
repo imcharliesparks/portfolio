@@ -121,8 +121,9 @@ const About = (): ReactElement => {
                                         Lambda School
                                         <span> - Graduated October 2018</span>
                                       </span>
-                                      I am candidate in Antioch's combined BA/MA fast track Clincial Psychology program,
-                                      which leads to MFT licensure in the state of California.
+                                      Lambda School is an intensive Computer Science program with emphasis on web
+                                      development. I learned advanced JavaScript, React, Node/Express, CSS/Bootstrap,
+                                      MongoDB/MySQL, Python/Django, and more during my time as a student there.
                                     </li>
                                     <li>
                                       <span className="tab-content">
