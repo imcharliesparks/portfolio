@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d854c14.chunk.css",
+    "main.js": "/portfolio/static/js/main.a6ce038a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a6ce038a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.3fbf267a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3fbf267a.js.map",
+    "static/css/2.257c7e99.chunk.css": "/portfolio/static/css/2.257c7e99.chunk.css",
+    "static/js/2.62fe2b24.chunk.js": "/portfolio/static/js/2.62fe2b24.chunk.js",
+    "static/js/2.62fe2b24.chunk.js.map": "/portfolio/static/js/2.62fe2b24.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.f750f9933ecda561a5eab4ffe1d07391.js": "/portfolio/precache-manifest.f750f9933ecda561a5eab4ffe1d07391.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.257c7e99.chunk.css.map": "/portfolio/static/css/2.257c7e99.chunk.css.map",
+    "static/css/main.8d854c14.chunk.css.map": "/portfolio/static/css/main.8d854c14.chunk.css.map",
+    "static/js/2.62fe2b24.chunk.js.LICENSE.txt": "/portfolio/static/js/2.62fe2b24.chunk.js.LICENSE.txt",
+    "static/media/about-7.jpg": "/portfolio/static/media/about-7.84a12224.jpg",
+    "static/media/wedding suit circular.png": "/portfolio/static/media/wedding suit circular.20fc0c35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fbf267a.js",
+    "static/css/2.257c7e99.chunk.css",
+    "static/js/2.62fe2b24.chunk.js",
+    "static/css/main.8d854c14.chunk.css",
+    "static/js/main.a6ce038a.chunk.js"
+  ]
+}
