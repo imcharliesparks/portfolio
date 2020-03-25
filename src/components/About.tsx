@@ -119,7 +119,7 @@ const About = (): ReactElement => {
                                     <li>
                                       <span className="tab-content">
                                         Lambda School
-                                        <span> - Graduated October 2018</span>
+                                        <span> - October 2018</span>
                                       </span>
                                       Lambda School is an intensive Computer Science program with emphasis on web
                                       development. I learned advanced JavaScript, React, Node/Express, CSS/Bootstrap,
@@ -128,7 +128,7 @@ const About = (): ReactElement => {
                                     <li>
                                       <span className="tab-content">
                                         Mt. San Jacinto College
-                                        <span> - Graduated May 2015</span>
+                                        <span> - May 2015</span>
                                       </span>
                                       I completed a AA in Social/Behavioral Science with honors in 2015 as an officer of
                                       the Phi Theta Kappa honors society.
