@@ -6,6 +6,7 @@ ul{
         display: flex;
         margin: 0 -20px;
         flex-wrap: wrap;
+        justify-content: center;
 
         @media #{$lg-layout} {
             margin: 0 -10px;
@@ -81,7 +82,7 @@ ul{
             line-height: inherit;
             margin-bottom: 15px;
             font-weight: 300;
-            a{
+            .tab-content{
                 font-weight: 500;
                 display: block;
                 color: #717173;
