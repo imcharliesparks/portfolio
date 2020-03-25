@@ -29,6 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "push": "git push && yarn deploy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
