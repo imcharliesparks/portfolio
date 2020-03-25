@@ -15,14 +15,15 @@ const About = (): ReactElement => {
               <div className="col-lg-7">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">About Me</h2>
+                    <h2 className="title">About</h2>
                     <p className="description">
-                      Charlie is a Full-Stack Web Developer and co-founder of e-sports web app, Plusframes.GG. He has
-                      worked with myriad languages and frameworks, specializing in JavaScript-based technologies like
-                      React, Node, and Meteor, and he has the ability to quickly adapt to new technologies in an ever
-                      changing environment. As a graduate of The Lambda School's Full-Stack Web Development Academy, as
-                      well as a BS/MA student at Antioch University Los Angeles, Charlie brings his unique blend of
-                      technical expertise and passion for people to every team he works with.
+                      Charlie is a Full-Stack Web Developer and co-creator of e-sports web app, Plusframes.GG. He has
+                      worked with many different languages and frameworks, specializing in JavaScript-based technologies
+                      like React, Node, and Meteor. Charlie has the ability to quickly adapt to new technologies in an
+                      ever changing environment, and has proven an invaluable asset to the companies he's worked with.
+                      As a graduate of The Lambda School's Full-Stack Web Development Academy, as well as a BS/MA
+                      student at Antioch University Los Angeles, Charlie brings his unique blend of technical expertise
+                      and passion for people to every team he works with.
                     </p>
                   </div>
                 </div>
