@@ -38,6 +38,7 @@ const About = (): ReactElement => {
                                 <Tab>Education</Tab>
                               </TabList>
 
+                              {/* CS TODO: Set static height for about me so picture doesn't shift--only large devices */}
                               <TabPanel>
                                 <div className="single-tab-content">
                                   <ul>
@@ -46,7 +47,8 @@ const About = (): ReactElement => {
                                         React<span> - 2 years</span>
                                       </span>
                                       Professionally employed as a React developer and have used it as my primary tool
-                                      for all projects since 2018.
+                                      for all projects since 2018. I've worked with numerous React-specific tools, such
+                                      as Redux, Redux-Saga, React Testing Library, and more.
                                     </li>
                                     <li>
                                       <span className="tab-content">
@@ -54,6 +56,13 @@ const About = (): ReactElement => {
                                       </span>
                                       Node and Express have been my goto backend tech for the past two years, and I have
                                       built servers and services with them (and Koa) and both of my previous jobs.
+                                    </li>
+                                    <li>
+                                      <span className="tab-content">
+                                        TypeScript<span> - 1 year</span>
+                                      </span>
+                                      I use TypeScipt at Kroger Digital, as well as in all of my side projects. I
+                                      started using it last year in my personal projects and have never looked back.
                                     </li>
                                     <li>
                                       <span className="tab-content">
@@ -74,21 +83,54 @@ const About = (): ReactElement => {
                                       </span>
                                       At Kroger Digital I work on the ecosystem of applications that make their in-store
                                       pickup initiative possible, including their groundbreaking 1-hour Walgreens pickup
-                                      service.
-                                    </li>
-                                    <li>
-                                      {/* <a href="/service"> */}
-                                      <span className="tab-content">
-                                        Web and user interface design<span> - Development</span>
-                                      </span>
-                                      {/* </a> */}
-                                      Websites, web experiences, ...
+                                      service. In particular, I work on the progressive React/TypeScript PWA,
+                                      Demeter--an application that helps employees fulfill user orders--and back-end
+                                      services related to picking.
                                     </li>
                                     <li>
                                       <span className="tab-content">
-                                        Web and user interface design<span> - Development</span>
+                                        Outlier Technologies<span> - May 2019 - November 2019</span>
                                       </span>
-                                      I like to move it move it.
+                                      At Outlier Technologies I worked on their industry-standard inspections/reporting
+                                      application, SansWrite, as well as developing custom applications used by state
+                                      and local governments.
+                                    </li>
+                                    <li>
+                                      <span className="tab-content">
+                                        Academic Associates<span> - May 2015 - June 2018</span>
+                                      </span>
+                                      Academic Associates was where I first discovered my passion for web development. I
+                                      was hired on as a general IT specialist, but transitioned to creating and
+                                      maintaining their website when the need arose.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </TabPanel>
+                              <TabPanel>
+                                <div className="single-tab-content">
+                                  <ul>
+                                    <li>
+                                      <span className="tab-content">
+                                        Antioch University<span> - In Progress</span>
+                                      </span>
+                                      I am candidate in Antioch's combined BA/MA fast track Clincial Psychology program,
+                                      which leads to MFT licensure in the state of California.
+                                    </li>
+                                    <li>
+                                      <span className="tab-content">
+                                        Lambda School
+                                        <span> - Graduated October 2018</span>
+                                      </span>
+                                      I am candidate in Antioch's combined BA/MA fast track Clincial Psychology program,
+                                      which leads to MFT licensure in the state of California.
+                                    </li>
+                                    <li>
+                                      <span className="tab-content">
+                                        Mt. San Jacinto College
+                                        <span> - Graduated May 2015</span>
+                                      </span>
+                                      I completed a AA in Social/Behavioral Science with honors in 2015 as an officer of
+                                      the Phi Theta Kappa honors society.
                                     </li>
                                   </ul>
                                 </div>
