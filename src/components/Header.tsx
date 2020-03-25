@@ -24,10 +24,10 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
           <nav className="mainmenunav d-lg-block">
             <ul className="mainmenu">
               <li>
-                <a href="#content">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#content">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li>
                 <a href="#content">Projects</a>

@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 
 const About = (): ReactElement => {
   return (
-    <div id="about" className="fix">
+    <section id="about" className="fix">
       <div className="about-area ptb--120  bg_color--1">
         <div className="about-wrapper">
           <div className="container">
@@ -32,7 +32,7 @@ const About = (): ReactElement => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

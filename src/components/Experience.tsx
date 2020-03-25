@@ -5,10 +5,11 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 // set background color
 const Experience = (): ReactElement => {
   return (
-    <div className="designer-portfolio-area ptb--80 bg_color--5">
+    <section id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
       <div className="wrapper plr--70 plr_sm--30 plr_md--30">
         <Tabs>
           <div className="row text-center">
+            <h2 style={{ margin: '0 auto 20px auto' }}>Experience</h2>
             <div className="col-lg-12">
               <div className="tablist-inner">
                 <TabList className="pv-tab-button text-center mt--0">
@@ -16,7 +17,7 @@ const Experience = (): ReactElement => {
                     <span>Skills</span>
                   </Tab>
                   <Tab>
-                    <span>Experience</span>
+                    <span>Employment</span>
                   </Tab>
                   <Tab>
                     <span>Education</span>
@@ -88,7 +89,7 @@ const Experience = (): ReactElement => {
                   <span style={{ fontWeight: 600 }} className="tab-content">
                     Outlier Technologies
                     <br />
-                    <span style={{ fontWeight: 400 }}>November 2019 - Present</span>
+                    <span style={{ fontWeight: 400 }}>May 2019 - November 2019</span>
                   </span>
                   At Outlier Technologies I worked on their industry-standard inspections/reporting application,
                   SansWrite, as well as developed custom applications used by state and local governments.
@@ -97,7 +98,7 @@ const Experience = (): ReactElement => {
                   <span style={{ fontWeight: 600 }} className="tab-content">
                     Academic Associates
                     <br />
-                    <span style={{ fontWeight: 400 }}>November 2019 - Present</span>
+                    <span style={{ fontWeight: 400 }}>May 2015 - June 2018</span>
                   </span>
                   Academic Associates was where I first discovered my passion for web development. I was hired on as a
                   general IT specialist, but transitioned to creating and maintaining their website when the need arose.
@@ -141,7 +142,7 @@ const Experience = (): ReactElement => {
           </TabPanel>
         </Tabs>
       </div>
-    </div>
+    </section>
   )
 }
 

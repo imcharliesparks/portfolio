@@ -13,9 +13,9 @@ const App = (): ReactElement => {
       <Header headerPosition="header--static" color="color-black" />
       {/* CS TODO: Update slider height for ipad pro */}
       <Slider />
+      {/* <Portfolio /> */}
       <About />
       <Experience />
-      {/* <Portfolio /> */}
     </>
   )
 }
