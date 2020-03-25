@@ -33,7 +33,7 @@ const About = (): ReactElement => {
                           <div className="col-lg-12">
                             <Tabs>
                               <TabList className="tab-style--1">
-                                <Tab>Skills (?)</Tab>
+                                <Tab>Skills</Tab>
                                 <Tab>Experience</Tab>
                                 <Tab>Education</Tab>
                               </TabList>
