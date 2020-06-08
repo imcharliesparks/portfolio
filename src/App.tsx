@@ -14,7 +14,7 @@ const App = (): ReactElement => {
       {/* CS TODO: Update slider height for ipad pro */}
       <Slider />
       {/* <Portfolio /> */}
-      <About />
+      {/* <About /> */}
       <Experience />
     </>
   )

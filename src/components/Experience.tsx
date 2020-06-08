@@ -5,7 +5,8 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 // set background color
 const Experience = (): ReactElement => {
   return (
-    <section id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
+    // <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
+    <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80">
       <div className="wrapper plr--70 plr_sm--30 plr_md--30">
         <Tabs>
           <div className="row text-center">
@@ -17,7 +18,7 @@ const Experience = (): ReactElement => {
                     <span>Skills</span>
                   </Tab>
                   <Tab>
-                    <span>Employment</span>
+                    <span>Experience</span>
                   </Tab>
                   <Tab>
                     <span>Education</span>
@@ -32,41 +33,42 @@ const Experience = (): ReactElement => {
               <ul>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
+                    JavaScript/TypeScript
+                    <br />
+                    <span style={{ fontWeight: 400 }}>5 Years</span>
+                  </span>
+                  I've worked building modern applications using both JavaScript and TypeScript for a few years now.
+                  I have experience with multiple JS-based libraries such as React, Meteor, Vue, jQuery, and Knockout.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
+                    HTML and CSS
+                    <br />
+                    <span style={{ fontWeight: 400 }}>5 Years</span>
+                  </span>
+                  I started learning HTML and CSS around ten years ago, and started using them at a professional level
+                  around five years ago. I've worked developing multiple responsive, static and dynamic websites in a variety
+                  of contexts.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
                     React
                     <br />
-                    <span style={{ fontWeight: 400 }}>2 Years</span>
+                    <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  I'm professionally employed as a React developer, and have used it as my primary tool for all projects
-                  since 2018. I've worked with numerous React-specific tools, such as Redux, Redux-Saga, Material UI,
+                  React has been my go-to solution for all front-end projects the past three years.
+                  I've worked with numerous React-specific tools, such as React-Native, Redux, Redux-Saga, React Router, Material UI,
                   Reactstrap, React Testing Library, and more.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
                     Node/Express
                     <br />
-                    <span style={{ fontWeight: 400 }}>2 Years</span>
+                    <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  Node and Express have been my goto backend tech for the past two years, and I have built servers and
-                  services with them (and Koa) at both of my previous jobs. I also have experience with both SQL and
-                  NoSQL databases.
-                </li>
-                <li>
-                  <span style={{ fontWeight: 600 }} className="tab-content">
-                    TypeScript
-                    <br />
-                    <span style={{ fontWeight: 400 }}>1 Year</span>
-                  </span>
-                  I use TypeScipt at Kroger Digital as well as in all of my side projects. I started using it last year
-                  in my personal work and have never looked back.
-                </li>
-                <li>
-                  <span style={{ fontWeight: 600 }} className="tab-content">
-                    HTML, CSS, and JavaScript
-                    <br />
-                    <span style={{ fontWeight: 400 }}>4 Years</span>
-                  </span>
-                  I have worked building static, responsive, and modern websites using these vanilla technologies, as
-                  well as with libraries such as jQuery, Knockout, and Bootstrap.
+                  Node and Express have been my choice back-end tech for the past three years, and I have built servers and
+                  services with them (and Koa) at both of my previous jobs. I have experience with full unit testing using
+                  Mocha and Chai, and have worked with both SQL and NoSQL databases.
                 </li>
               </ul>
             </div>
@@ -96,9 +98,18 @@ const Experience = (): ReactElement => {
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
+                    Colors Youth Counseling Center
+                    <br />
+                    <span style={{ fontWeight: 400 }}>June 2016 - March 2017</span>
+                  </span>
+                  Colors hired me on to work on their Wordpress website and blog, as well as to do general
+                  IT work for the whole organization.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
                     Academic Associates
                     <br />
-                    <span style={{ fontWeight: 400 }}>May 2015 - June 2018</span>
+                    <span style={{ fontWeight: 400 }}>June 2011 - June 2015</span>
                   </span>
                   Academic Associates was where I first discovered my passion for web development. I was hired on as a
                   general IT specialist, but transitioned to creating and maintaining their website when the need arose.
