@@ -20,7 +20,7 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
             <img src={require('../assets/images/logo/logo-symbol-dark.png')} alt="The Sparks Full-Stack Logo" />
           </div>
         </div>
-        {/* <div className="header-right">
+        <div className="header-right">
           <nav className="mainmenunav d-lg-block">
             <ul className="mainmenu">
               <li>
@@ -29,9 +29,9 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
               <li>
                 <a href="#experience">Experience</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#content">Projects</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#content">Contact</a>
               </li>
@@ -47,7 +47,7 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
               <FiX />
             </span>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
   )

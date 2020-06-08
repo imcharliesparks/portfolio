@@ -6,8 +6,8 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 const Experience = (): ReactElement => {
   return (
     // <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
-    <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80">
-      <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+    <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--40">
+      <div className="wrapper plr--70 plr_sm--30">
         <Tabs>
           <div className="row text-center">
             <h2 style={{ margin: '0 auto 20px auto' }}>Experience</h2>

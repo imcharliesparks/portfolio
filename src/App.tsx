@@ -5,6 +5,7 @@ import Slider from './components/Slider'
 // import Portfolio from './components/Portfolio'
 import About from './components/About'
 import Experience from './components/Experience'
+import Footer from './components/Footer'
 
 const App = (): ReactElement => {
   return (
@@ -16,6 +17,7 @@ const App = (): ReactElement => {
       {/* <Portfolio /> */}
       {/* <About /> */}
       <Experience />
+      <Footer />
     </>
   )
 }
