@@ -17,6 +17,7 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
     hambugerButtonRef.current?.classList.toggle('is-active')
   }
 
+  // TODO: Make burger animation timing match menu speed
   return (
     <header style={{ height: '10vh' }} className={`header-area formobile-menu ${headerPosition} ${color}`}>
       <div ref={headerWrapperRef} className="header-wrapper" id="header-wrapper">

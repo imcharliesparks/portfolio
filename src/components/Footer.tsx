@@ -14,15 +14,6 @@ const Footer = () => {
             <div className="wrapper plr--50 plr_sm--20">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-12">
-                        {/* <div className="inner">
-                            <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/home-one">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
-                                </a>
-                            </div>
-                        </div> */}
-                    </div>
-                    <div className="col-12">
                         <div className="inner text-center">
                             <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                                 {SocialShare.map((val , i) => (

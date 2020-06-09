@@ -5,7 +5,6 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 // set background color
 const Experience = (): ReactElement => {
   return (
-    // <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
     <section style={{ minHeight: 916 }}  id="experience" className="designer-portfolio-area ptb--40 bg_color--5">
       <div className="wrapper plr--70 plr_sm--30">
         <Tabs>
@@ -27,7 +26,6 @@ const Experience = (): ReactElement => {
               </div>
             </div>
           </div>
-          {/* CS TODO: Make this padding on on large? */}
           <TabPanel style={{ maxWidth: 575, margin: '0 auto', padding: '0 25px' }} className="row row--35">
             <div className="single-tab-content">
               <ul>
