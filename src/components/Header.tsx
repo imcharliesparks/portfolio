@@ -2,7 +2,6 @@ import React, { ReactElement } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 // @ts-ignore
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import StyledBurger from './StyledBurger'
 
 type HeaderProps = {
   headerPosition: string
@@ -36,33 +35,20 @@ const Header = ({ headerPosition, color }: HeaderProps): ReactElement => {
                 <AnchorLink onClick={menuTrigger} href="#experience">Experience</AnchorLink>
               </li>
               {/* <li>
-                <a onClick={menuTrigger} href="#content">Projects</a>
+                <AnchorLink onClick={menuTrigger} href="#contact">Contact</AnchorLink>
               </li> */}
               <li>
                 <AnchorLink onClick={menuTrigger} href="#contact">Contact</AnchorLink>
               </li>
             </ul>
           </nav>
-          {/* TODO: Change to transitioning header */}
           <div style={{ zIndex: 999 }} className="d-block d-lg-none pl--20">
               <button onClick={menuTrigger} ref={hambugerButtonRef} className="hamburger hamburger--squeeze" type="button">
                   <span className="hamburger-box">
                       <span className="hamburger-inner"></span>
                   </span>
               </button>
-            {/* <span style={{opacity: '1 !important'}} className="menutrigger text-white">
-              <button onClick={menuTrigger} ref={hambugerButtonRef} className="hamburger hamburger--squeeze" type="button">
-                  <span className="hamburger-box">
-                      <span className="hamburger-inner"></span>
-                  </span>
-              </button>
-            </span> */}
           </div>
-          {/* <div className="close-menu d-block d-lg-none">
-            <span onClick={closeMenuTrigger} className="closeTrigger">
-              <FiX />
-            </span>
-          </div> */}
         </div>
       </div>
     </header>

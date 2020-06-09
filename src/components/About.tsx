@@ -8,7 +8,7 @@ const About = (): ReactElement => {
           <div className="container">
             <div className="row row--45 align-items-center">
               <div className="col-lg-5">
-                <div className="thumbnail">
+                <div style={{ maxWidth: 400, margin: '0 auto' }} className="thumbnail">
                   <img className="w-100" src={require('../assets/images/with-doobs-2.jpg')} alt="About Images" />
                 </div>
               </div>

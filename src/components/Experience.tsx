@@ -93,7 +93,7 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>May 2019 - November 2019</span>
                   </span>
-                  At Outlier Technologies I worked on their industry-standard inspections/reporting application,
+                  During my time with Outlier Technologies I worked on their industry-standard inspections/reporting application,
                   SansWrite, as well as developed custom applications used by state and local governments.
                 </li>
                 <li>
@@ -126,7 +126,7 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>In Progress</span>
                   </span>
-                  I am candidate in Antioch's combined BA/MA fast track Clincial Psychology program, which leads to MFT
+                  Candidate in Antioch's combined BA/MA fast track Clincial Psychology program, which leads to MFT
                   licensure in the state of California.
                 </li>
                 <li>
@@ -135,7 +135,7 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>Graduated October 2018</span>
                   </span>
-                  I am a graduate of Lambda School's intensive Computer Science program with emphasis on web
+                  Graduate of Lambda School's intensive Computer Science program with emphasis on web
                   development. I learned advanced JavaScript, React, Node/Express, CSS/Bootstrap, MongoDB/MySQL,
                   Python/Django, and more during my time as a student there.
                 </li>
@@ -145,7 +145,7 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>Graduated May 2015</span>
                   </span>
-                  I completed a AA in Social/Behavioral Science with honors in 2015 as an officer of the prestigous Phi
+                  Completed a AA in Social/Behavioral Science with honors in 2015 as an officer of the prestigous Phi
                   Theta Kappa honors society.
                 </li>
               </ul>
