@@ -6,11 +6,11 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 const Experience = (): ReactElement => {
   return (
     // <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--80 bg_color--5">
-    <section style={{ height: 916 }}  id="experience" className="designer-portfolio-area ptb--40">
+    <section style={{ minHeight: 916 }}  id="experience" className="designer-portfolio-area ptb--40 bg_color--5">
       <div className="wrapper plr--70 plr_sm--30">
         <Tabs>
           <div className="row text-center">
-            <h2 style={{ margin: '0 auto 20px auto' }}>Experience</h2>
+            <h2 style={{ margin: '0 auto 20px auto' }}>Curriculum Vitae</h2>
             <div className="col-lg-12">
               <div className="tablist-inner">
                 <TabList className="pv-tab-button text-center mt--0">
@@ -28,7 +28,7 @@ const Experience = (): ReactElement => {
             </div>
           </div>
           {/* CS TODO: Make this padding on on large? */}
-          <TabPanel style={{ padding: '0 25px' }} className="row row--35">
+          <TabPanel style={{ maxWidth: 575, margin: '0 auto', padding: '0 25px' }} className="row row--35">
             <div className="single-tab-content">
               <ul>
                 <li>
@@ -58,7 +58,7 @@ const Experience = (): ReactElement => {
                   </span>
                   React has been my go-to solution for all front-end projects the past three years.
                   I've worked with numerous React-specific tools, such as React-Native, Redux, Redux-Saga, React Router, Material UI,
-                  Reactstrap, React Testing Library, and more.
+                  Reactstrap, Jest, React Testing Library, and more.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -67,13 +67,13 @@ const Experience = (): ReactElement => {
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
                   Node and Express have been my choice back-end tech for the past three years, and I have built servers and
-                  services with them (and Koa) at both of my previous jobs. I have experience with full unit testing using
-                  Mocha and Chai, and have worked with both SQL and NoSQL databases.
+                  services with them (and Koa) at both of my previous jobs. I have experience with full back-end unit testing using
+                  Mocha, Chai, and Jest, and have worked with both SQL and NoSQL databases.
                 </li>
               </ul>
             </div>
           </TabPanel>
-          <TabPanel style={{ padding: '0 25px' }} className="row row--35">
+          <TabPanel style={{ maxWidth: 575, margin: '0 auto', padding: '0 25px' }} className="row row--35">
             <div className="single-tab-content">
               <ul>
                 <li>
@@ -117,7 +117,7 @@ const Experience = (): ReactElement => {
               </ul>
             </div>
           </TabPanel>
-          <TabPanel style={{ padding: '0 25px' }} className="row row--35">
+          <TabPanel style={{ maxWidth: 575, margin: '0 auto', padding: '0 25px' }} className="row row--35">
             <div className="single-tab-content">
               <ul>
                 <li>
