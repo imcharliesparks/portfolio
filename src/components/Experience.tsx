@@ -91,9 +91,9 @@ const Experience = (): ReactElement => {
                     <span style={{ fontWeight: 400 }}>November 2019 - Present</span>
                   </span>
                   At Kroger Digital I work on the ecosystem of applications that make their in-store pickup initiative
-                  possible, including their groundbreaking 1-hour Walgreens pickup service. In particular, I work on the
-                  progressive React/TypeScript PWA, Demeter--an application that helps employees fulfill user
-                  orders--and back-end services related to picking.
+                  possible, including their groundbreaking 1-hour Walgreens pickup service, and first pickup and delivery 
+                  only store. In particular, I work on two React/TypeScript PWAs, Demeter and Harvester--applications
+                  that helps employees fulfill user orders--and back-end services related to picking.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -102,7 +102,8 @@ const Experience = (): ReactElement => {
                     <span style={{ fontWeight: 400 }}>May 2019 - November 2019</span>
                   </span>
                   During my time with Outlier Technologies I worked on their industry-standard inspections/reporting application,
-                  SansWrite, as well as developed custom applications used by state and local governments.
+                  SansWrite, as well as developed custom web applications used by many organizations, including 
+                  state and local governments.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -110,8 +111,8 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>June 2016 - March 2017</span>
                   </span>
-                  Colors hired me on to work on their Wordpress website and blog, as well as to do general
-                  IT work for the whole organization.
+                  Colors hired me on to work on their WordPress website and blog, as well as to do general
+                  IT work for the whole organization, including SEO optimization and social media outreach.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -119,8 +120,8 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>June 2011 - June 2015</span>
                   </span>
-                  Academic Associates was where I first discovered my passion for web development. I was hired on as a
-                  general IT specialist, but transitioned to creating and maintaining their website when the need arose.
+                  At Academic Associates, I wrote and maintained their primary website and helped optimize their online
+                  presence. I also handled all other IT duties throughout their organization.
                 </li>
               </ul>
             </div>
@@ -130,15 +131,6 @@ const Experience = (): ReactElement => {
               <ul>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
-                    Antioch University
-                    <br />
-                    <span style={{ fontWeight: 400 }}>In Progress</span>
-                  </span>
-                  Candidate in Antioch's combined BA/MA fast track Clincial Psychology program, which leads to MFT
-                  licensure in the state of California.
-                </li>
-                <li>
-                  <span style={{ fontWeight: 600 }} className="tab-content">
                     Lambda School
                     <br />
                     <span style={{ fontWeight: 400 }}>Graduated October 2018</span>
@@ -146,6 +138,15 @@ const Experience = (): ReactElement => {
                   Graduate of Lambda School's intensive Computer Science program with emphasis on web
                   development. I learned advanced JavaScript, React, Node/Express, CSS/Bootstrap, MongoDB/MySQL,
                   Python/Django, and more during my time as a student there.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
+                    Antioch University
+                    <br />
+                    <span style={{ fontWeight: 400 }}>In Progress</span>
+                  </span>
+                  Candidate in Antioch's combined BA/MA fast track Clincial Psychology program, which leads to MFT
+                  licensure in the state of California.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
