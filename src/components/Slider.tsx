@@ -24,7 +24,7 @@ const Slider = (): ReactElement => {
                   </TextLoop>{' '}
                 </h1>
                 {/* <h2>based in USA.</h2> */}
-                <span>Cincinnati, Ohio</span>
+                <span>Southern Ohio and California</span>
                 {/* {value.description ? <p className="description">{value.description}</p> : ''}
                 {value.buttonText ? (
                   <div className="slide-btn">

@@ -36,17 +36,7 @@ const Experience = (): ReactElement => {
                     <span style={{ fontWeight: 400 }}>5 Years</span>
                   </span>
                   I've worked building modern applications using both JavaScript and TypeScript for a few years now.
-                  I have experience with multiple JS-based libraries such as React, Meteor, Vue, jQuery, and Knockout.
-                </li>
-                <li>
-                  <span style={{ fontWeight: 600 }} className="tab-content">
-                    HTML and CSS
-                    <br />
-                    <span style={{ fontWeight: 400 }}>5 Years</span>
-                  </span>
-                  I started learning HTML and CSS around ten years ago, and started using them at a professional level
-                  around five years ago. I've worked developing multiple responsive, static and dynamic websites in a variety
-                  of contexts.
+                  I have experience with multiple JS-based libraries and frameworks such as React, Meteor, Vue, jQuery, and Knockout.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -54,9 +44,19 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  React has been my go-to solution for all front-end projects the past three years.
+                  React has been my go-to solution for all front-end projects for the past 3 years.
                   I've worked with numerous React-specific tools, such as React-Native, Redux, Redux-Saga, React Router, Material UI,
                   Reactstrap, Jest, React Testing Library, and more.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
+                    HTML and CSS
+                    <br />
+                    <span style={{ fontWeight: 400 }}>5 Years</span>
+                  </span>
+                  I have been programming in HTML/CSS for 10 years, and started using them in a professional capacity
+                  around 5 years ago. I've worked developing myriad responsive static and dynamic websites in a variety
+                  of contexts.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -64,9 +64,19 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  Node and Express have been my choice back-end tech for the past three years, and I have built servers and
-                  services with them (and Koa) at both of my previous jobs. I have experience with full back-end unit testing using
+                  Node and Express have been my choice back-end tech for the past 3 years, and I have built servers and
+                  services with them, as well as Koa, at both of my previous jobs. I have experience with full back-end unit testing using
                   Mocha, Chai, and Jest, and have worked with both SQL and NoSQL databases.
+                </li>
+                <li>
+                  <span style={{ fontWeight: 600 }} className="tab-content">
+                    Other Technologies
+                    <br />
+                    <span style={{ fontWeight: 400 }}>3 Years</span>
+                  </span>
+                  I have worked with many other technologies, including the following:
+                  VueJS, Swift, PHP/Laravel, Java/Kotlin/Spring Boot, Python/Django, 
+                  WordPress, MongoDB, Microsoft SQL Server, SQLite3, 
                 </li>
               </ul>
             </div>
