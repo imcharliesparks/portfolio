@@ -6,6 +6,7 @@ import Slider from './components/Slider'
 import About from './components/About'
 import Experience from './components/Experience'
 import Footer from './components/Footer'
+import ScrollArrow from './components/ScrollArrow'
 
 const App = (): ReactElement => {
   return (
@@ -18,6 +19,8 @@ const App = (): ReactElement => {
       <About />
       <Experience />
       <Footer />
+      {/* // TODO: Make transition from show to hide more smooth */}
+      <ScrollArrow />
     </>
   )
 }

@@ -20,7 +20,7 @@ const Slider = (): ReactElement => {
                   <TextLoop>
                     <span> Full-Stack Developer. </span>
                     <span> Software Engineer. </span>
-                    <span> Experienced Teammate. </span>
+                    <span> Front-End Developer. </span>
                   </TextLoop>{' '}
                 </h1>
                 {/* <h2>based in USA.</h2> */}
