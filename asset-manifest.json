@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bb48cf48.chunk.css",
+    "main.css": "/portfolio/static/css/main.9493a6c6.chunk.css",
     "main.js": "/portfolio/static/js/main.9dee40de.chunk.js",
     "main.js.map": "/portfolio/static/js/main.9dee40de.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3fbf267a.js",
@@ -9,10 +9,10 @@
     "static/js/2.086ed994.chunk.js": "/portfolio/static/js/2.086ed994.chunk.js",
     "static/js/2.086ed994.chunk.js.map": "/portfolio/static/js/2.086ed994.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5295d382bf2b86ece220f56c3ab65f2c.js": "/portfolio/precache-manifest.5295d382bf2b86ece220f56c3ab65f2c.js",
+    "precache-manifest.423e0513348030e3078e0eb106d4952a.js": "/portfolio/precache-manifest.423e0513348030e3078e0eb106d4952a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.257c7e99.chunk.css.map": "/portfolio/static/css/2.257c7e99.chunk.css.map",
-    "static/css/main.bb48cf48.chunk.css.map": "/portfolio/static/css/main.bb48cf48.chunk.css.map",
+    "static/css/main.9493a6c6.chunk.css.map": "/portfolio/static/css/main.9493a6c6.chunk.css.map",
     "static/js/2.086ed994.chunk.js.LICENSE.txt": "/portfolio/static/js/2.086ed994.chunk.js.LICENSE.txt",
     "static/media/wedding suit circular.png": "/portfolio/static/media/wedding suit circular.20fc0c35.png",
     "static/media/with-doobs-2.jpg": "/portfolio/static/media/with-doobs-2.00b918c0.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.3fbf267a.js",
     "static/css/2.257c7e99.chunk.css",
     "static/js/2.086ed994.chunk.js",
-    "static/css/main.bb48cf48.chunk.css",
+    "static/css/main.9493a6c6.chunk.css",
     "static/js/main.9dee40de.chunk.js"
   ]
 }
