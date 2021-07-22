@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9493a6c6.chunk.css",
-    "main.js": "/portfolio/static/js/main.b107c888.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b107c888.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8c1734dc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8c1734dc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3fbf267a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3fbf267a.js.map",
     "static/css/2.257c7e99.chunk.css": "/portfolio/static/css/2.257c7e99.chunk.css",
     "static/js/2.086ed994.chunk.js": "/portfolio/static/js/2.086ed994.chunk.js",
     "static/js/2.086ed994.chunk.js.map": "/portfolio/static/js/2.086ed994.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d3566e1ca91e022e0dfd78b4587a4101.js": "/portfolio/precache-manifest.d3566e1ca91e022e0dfd78b4587a4101.js",
+    "precache-manifest.119fa87b16c36dd38634b932edddde1d.js": "/portfolio/precache-manifest.119fa87b16c36dd38634b932edddde1d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.257c7e99.chunk.css.map": "/portfolio/static/css/2.257c7e99.chunk.css.map",
     "static/css/main.9493a6c6.chunk.css.map": "/portfolio/static/css/main.9493a6c6.chunk.css.map",
     "static/js/2.086ed994.chunk.js.LICENSE.txt": "/portfolio/static/js/2.086ed994.chunk.js.LICENSE.txt",
-    "static/media/wedding suit circular.png": "/portfolio/static/media/wedding suit circular.20fc0c35.png",
+    "static/media/new-suit.jpg": "/portfolio/static/media/new-suit.6972835f.jpg",
     "static/media/with-doobs-2.jpg": "/portfolio/static/media/with-doobs-2.00b918c0.jpg"
   },
   "entrypoints": [
@@ -22,6 +22,6 @@
     "static/css/2.257c7e99.chunk.css",
     "static/js/2.086ed994.chunk.js",
     "static/css/main.9493a6c6.chunk.css",
-    "static/js/main.b107c888.chunk.js"
+    "static/js/main.8c1734dc.chunk.js"
   ]
 }

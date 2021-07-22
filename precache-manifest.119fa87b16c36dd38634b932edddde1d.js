@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c964533fc86a00c241cd807a7498aff1",
+    "revision": "67842c008baddffda3c955a544b5aec2",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.257c7e99.chunk.css"
   },
   {
-    "revision": "944a0f068f5c70cebb5e",
+    "revision": "06c883e6a79193186f7c",
     "url": "/portfolio/static/css/main.9493a6c6.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.086ed994.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "944a0f068f5c70cebb5e",
-    "url": "/portfolio/static/js/main.b107c888.chunk.js"
+    "revision": "06c883e6a79193186f7c",
+    "url": "/portfolio/static/js/main.8c1734dc.chunk.js"
   },
   {
     "revision": "ceb68d410db72963d4f7",
     "url": "/portfolio/static/js/runtime-main.3fbf267a.js"
   },
   {
-    "revision": "20fc0c3535b80e122fdcdc791a12d1f6",
-    "url": "/portfolio/static/media/wedding suit circular.20fc0c35.png"
+    "revision": "6972835fc0d172d91f746ce564adf570",
+    "url": "/portfolio/static/media/new-suit.6972835f.jpg"
   },
   {
     "revision": "00b918c06d4c716542a0a12ec7dd3bb5",
