@@ -9,7 +9,11 @@ const Slider = (): ReactElement => {
           <div className="row align-items-center">
             <div className="col-lg-5 designer-thumbnail-container">
               <div className="designer-thumbnail">
-                <img src={require('../assets/images/new-suit.jpg')} alt="Picture of Charlie" />
+                <img
+                  style={{ maxHeight: 500 }}
+                  src={require('../assets/images/new-suit.jpg')}
+                  alt="Picture of Charlie"
+                />
               </div>
             </div>
             <div className="col-lg-7 mt_md--40 mt_sm--40">

@@ -12,8 +12,8 @@ const About = (): ReactElement => {
                   <img className="w-100" src={require('../assets/images/with-doobs-2.jpg')} alt="About Images" />
                 </div>
               </div>
-              <div className="col-lg-7">
-                <div style={{ paddingLeft: 25, paddingRight: 25 }} className="about-inner inner">
+              <div style={{ paddingLeft: 0, paddingRight: 0 }} className="col-lg-7">
+                <div className="about-inner inner">
                   <div className="section-title">
                     <h2 className="title">About</h2>
                     <p className="description">
