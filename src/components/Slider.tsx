@@ -9,7 +9,7 @@ const Slider = (): ReactElement => {
           <div className="row align-items-center">
             <div className="col-lg-5 designer-thumbnail-container">
               <div className="designer-thumbnail">
-                <img src={require('../assets/images/wedding suit circular.png')} alt="Slider Images" />
+                <img src={require('../assets/images/new-suit.jpg')} alt="Picture of Charlie" />
               </div>
             </div>
             <div className="col-lg-7 mt_md--40 mt_sm--40">
@@ -18,23 +18,12 @@ const Slider = (): ReactElement => {
                   Hi, I’m Charlie Sparks,
                   <br />
                   <TextLoop>
-                    <span> Full-Stack Developer. </span>
                     <span> Software Engineer. </span>
-                    <span> Front-End Developer. </span>
+                    <span> Web Developer. </span>
+                    <span> Musican. </span>
                   </TextLoop>{' '}
                 </h1>
-                {/* <h2>based in USA.</h2> */}
-                <span>Southern Ohio and California</span>
-                {/* {value.description ? <p className="description">{value.description}</p> : ''}
-                {value.buttonText ? (
-                  <div className="slide-btn">
-                    <a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>
-                      {value.buttonText}
-                    </a>
-                  </div>
-                ) : (
-                  ''
-                )} */}
+                <span>Orange County, California</span>
               </div>
             </div>
           </div>

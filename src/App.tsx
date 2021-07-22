@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react'
+import * as React from 'react'
 import PageHelmet from './components/PageHelmet'
 import Header from './components/Header'
 import Slider from './components/Slider'
@@ -8,7 +8,7 @@ import Experience from './components/Experience'
 import Footer from './components/Footer'
 import ScrollArrow from './components/ScrollArrow'
 
-const App = (): ReactElement => {
+const App = (): React.ReactElement => {
   return (
     <>
       <PageHelmet />
@@ -19,7 +19,7 @@ const App = (): ReactElement => {
       <About />
       <Experience />
       <Footer />
-      {/* // TODO: Make transition from show to hide more smooth */}
+      {/* TODO: Make transition from show to hide more smooth */}
       <ScrollArrow />
     </>
   )

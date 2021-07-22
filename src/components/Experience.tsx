@@ -5,7 +5,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 // set background color
 const Experience = (): ReactElement => {
   return (
-    <section style={{ minHeight: 916 }}  id="experience" className="designer-portfolio-area ptb--40 bg_color--5">
+    <section style={{ minHeight: 916 }} id="experience" className="designer-portfolio-area ptb--40 bg_color--5">
       <div className="wrapper plr--70 plr_sm--30">
         <Tabs>
           <div className="row text-center">
@@ -35,8 +35,9 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>5 Years</span>
                   </span>
-                  I've worked building modern applications using both JavaScript and TypeScript for a few years now.
-                  I have experience with multiple JS-based libraries and frameworks such as React, Meteor, Vue, jQuery, and Knockout.
+                  I've worked building modern applications using both JavaScript and TypeScript for a few years now. I
+                  have experience with multiple JS-based libraries and frameworks such as React, Meteor, Vue, jQuery,
+                  and Knockout.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -44,8 +45,8 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  React has been my go-to solution for all front-end projects for the past 3 years.
-                  I've worked with numerous React-specific tools, such as React-Native, Redux, Redux-Saga, React Router, Material UI,
+                  React has been my go-to solution for all front-end projects for the past 3 years. I've worked with
+                  numerous React-specific tools, such as React-Native, Redux, Redux-Saga, React Router, Material UI,
                   Reactstrap, Jest, React Testing Library, and more.
                 </li>
                 <li>
@@ -65,8 +66,8 @@ const Experience = (): ReactElement => {
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
                   Node and Express have been my choice back-end tech for the past 3 years, and I have built servers and
-                  services with them, as well as Koa, at both of my previous jobs. I have experience with full back-end unit testing using
-                  Mocha, Chai, and Jest, and have worked with both SQL and NoSQL databases.
+                  services with them, as well as Koa, at both of my previous jobs. I have experience with full back-end
+                  unit testing using Mocha, Chai, and Jest, and have worked with both SQL and NoSQL databases.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -74,9 +75,9 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>3 Years</span>
                   </span>
-                  I have worked with many other technologies, including the following:
-                  VueJS, Swift, PHP/Laravel, Java/Kotlin/Spring Boot, Python/Django, 
-                  WordPress, MongoDB, Microsoft SQL Server, SQLite3, 
+                  I have worked with many other technologies, including the following: VueJS, Swift, PHP/Laravel,
+                  Android Jetpack, Java/Kotlin/Spring Boot, Python/Django, WordPress, MongoDB, Microsoft SQL Server,
+                  SQLite3, Apache Cassandra, and more.
                 </li>
               </ul>
             </div>
@@ -86,14 +87,15 @@ const Experience = (): ReactElement => {
               <ul>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
-                    Kroger Digital
+                    Kroger Technology
                     <br />
                     <span style={{ fontWeight: 400 }}>November 2019 - Present</span>
                   </span>
-                  At Kroger Digital I work on the ecosystem of applications that make their in-store pickup initiative
-                  possible, including their groundbreaking 1-hour Walgreens pickup service, and first pickup and delivery 
-                  only store. In particular, I work on two React/TypeScript PWAs, Demeter and Harvester--applications
-                  that helps employees fulfill user orders--and back-end services related to picking.
+                  At Kroger Technology I work on the ecosystem of applications that make their in-store pickup
+                  initiative possible, including their industry standard order fulfillment suite, as well as their
+                  groundbreaking 1-hour Walgreens grocery pickup service. In particular, I work on two React/TypeScript
+                  PWAs, Demeter and Harvester--both associate facing applications that help employees fulfill user
+                  orders--and back-end services related to the picking and staging of orders.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -101,9 +103,9 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>May 2019 - November 2019</span>
                   </span>
-                  During my time with Outlier Technologies I worked on their industry-standard inspections/reporting application,
-                  SansWrite, as well as developed custom web applications used by many organizations, including 
-                  state and local governments.
+                  During my time with Outlier Technologies I worked on their industry-standard inspections/reporting
+                  application, SansWrite, as well as developed custom web applications used by many organizations,
+                  including state and local governments.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -111,8 +113,8 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>June 2016 - March 2017</span>
                   </span>
-                  Colors hired me on to work on their WordPress website and blog, as well as to do general
-                  IT work for the whole organization, including SEO optimization and social media outreach.
+                  Colors hired me on to work on their WordPress website and blog, as well as to do general IT work for
+                  the whole organization, including SEO optimization and social media outreach.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
@@ -135,9 +137,9 @@ const Experience = (): ReactElement => {
                     <br />
                     <span style={{ fontWeight: 400 }}>Graduated October 2018</span>
                   </span>
-                  Graduate of Lambda School's intensive Computer Science program with emphasis on web
-                  development. I learned advanced JavaScript, React, Node/Express, CSS/Bootstrap, MongoDB/MySQL,
-                  Python/Django, and more during my time as a student there.
+                  Graduate of Lambda School's intensive Computer Science program with emphasis on web development. I
+                  learned advanced JavaScript, React, Node/Express, CSS/Bootstrap, MongoDB/MySQL, Python/Django, and
+                  more during my time as a student there.
                 </li>
                 <li>
                   <span style={{ fontWeight: 600 }} className="tab-content">
